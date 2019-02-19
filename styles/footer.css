@@ -3,6 +3,10 @@
 	margin:0;
 }
 
+footer{
+	  background:linear-gradient(60deg, #4B99FD,#BF3766, #BD3994);
+}
+
 .footer-distributed{
   position: absolute;
 	background-color: #292c2f;
@@ -16,7 +20,7 @@
 }
 
 .footer-distributed .footer-left p{
-	color:  #8f9296;
+	color:  #fff;
 	font-size: 14px;
 	margin: 0;
 }
