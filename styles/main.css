@@ -6,51 +6,60 @@ body{
   color: #444;
 }
 
-.container{
-  width:960px;
-  margin:0 auto;
-  display:flex;
-}
-
 
 nav{
   background-color: #313131;
-  margin-top: 20px;
+}
+nav .container {
+  align-items: center;
 }
 
-li.menuItem{
-  list-style: none;
-  float: left;
-  padding: 15px 20px;
-  position : relative;
+.nav__link {
+  text-align: center;
+}
+.hero {
+  position: relative;
+}
+.hero__image1{
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: auto;
+}
+.hero__image2{
+  position: absolute;
+  left: 0%;
+  top: -30%;
+  width: 300px;
+  height: auto;
+  opacity: .2;
+}
+.screen2 {
+  margin: 120px auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+.screen2__image{
+  height: auto; 
+  margin: auto;
+  display: block;
+}
+.screen2__description {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 0;
+  text-align: center;
+  
+}
+@media screen and (min-width: 720px){
+  .screen2__description {
+    padding: 0 110px 0 0 ;
+  }
 }
 
-li.menuItem a{
-color:#FFF;
-text-transform: uppercase;
-text-decoration: none;
-
-}
-
-li.menuItem:hover a{
-  color: #AAA;
-}
-
-.subMenu{
-  display:none;
-}
-
-li.menuItem:hover .subMenu {
-  display:block;
-  position:absolute;
-  top:100%;
-  left:0%;
-  list-style:none;
-  background-color:#000;
-  padding : 15px;
-  width:150px;
-}
-
-li.menuItem .subMenu li{
-  padding:5px;
+.screen2__txt{
+  margin: auto;
 }
