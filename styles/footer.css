@@ -4,15 +4,15 @@
 }
 
 .footer-distributed{
+  position: absolute;
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
 	font: normal 16px sans-serif;
-
 	padding: 45px 50px;
-	margin-top: 80px;
+	bottom: 0px;
 }
 
 .footer-distributed .footer-left p{
@@ -21,7 +21,6 @@
 	margin: 0;
 }
 
-/* Footer links */
 
 .footer-distributed p.footer-links{
 	font-size:18px;
@@ -65,7 +64,6 @@
 	margin-top: 2px;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 600px) {
 
