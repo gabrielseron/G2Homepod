@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   color: black;
 }
 
@@ -25,7 +25,6 @@ header{
 
 nav{
   width: 100%;
-  min-width: 1024px;
   height:60px;
   max-height:44px;
   font-size: 12px;
@@ -50,24 +49,22 @@ nav li a.current, nav li a:hover{
 }
 
 .logo{
-  padding-top:5px;
+  padding-top:3px;
   padding-left:0px;
   height:20px;
-  width:100%;
 }
 
-/*MAIN*/
+/* MAIN */
 
 h2{
-  font-size:2,5em;
-  font-weight: normal;
+  font-size:3em;
+  font-weight: bold;
   margin:15px;
 }
 
 .achat{
   padding-top:80px;
   display:flex;
-  margin-bottom: 100px;
 }
 
 .colors{
@@ -79,6 +76,7 @@ h2{
 .colorsText{
   width:300px;
   display:flex;
+  margin-left: 5px;
 }
 
 h6{
@@ -87,6 +85,7 @@ h6{
   margin-top:0px;
   font-size:1em;
   font-weight: normal;
+  text-align: center;
 }
 
 .white{
@@ -111,9 +110,6 @@ h6{
   margin:0 auto;
   padding-left:100px;
 }
-.buttons{
-  margin-top:70px;
-}
 
 .homepodImage{
   margin-left:100px;
@@ -129,13 +125,51 @@ h6{
 h6.price{
   font-size:3em;
   font-weight: lighter;
+  margin-right: 100px;
 }
 .add{
   background:linear-gradient(60deg, #4B99FD, #BD3994);
   height: 50px;
   width: 200px;
-  border-radius: 30px;
+  border-radius: 20%;
   font-size:1em;
   font-weight: normal;
   color:white;
+}
+
+/* BUTTONS */
+
+.colors .black, .colors .white{
+  border: none;
+}
+/* MEDIA QUERIES */
+@media screen and (min-width: 768px) and (max-width:1024px)
+{
+  .container{
+    width:768px;
+    margin:0 auto;
+  }
+
+  .homepodImage img{
+    width: 100%;
+  }
+
+  header{
+    width: 100%;
+  }
+}
+
+  @media screen and (max-width: 768px)
+  {
+    .container{
+      width: 480px;
+      margin: 0 auto;
+    }
+    nav ul li{
+      display: none;
+    }
+    .homepodImage img{
+      width: 100%;
+    }
+
 }
