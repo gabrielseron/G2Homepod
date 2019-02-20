@@ -5,13 +5,13 @@ body{
   color: black;
 }
 
-.container{
+.box{
   width:960px;
   margin:0 auto;
   margin-bottom: 100px;
 }
 
-.container_flex{
+.box_flex{
   display:flex;
   justify-content: space-between;
   align-items:center;
@@ -58,10 +58,22 @@ nav li a.current, nav li a:hover{
 }
 
 /*MAIN*/
-body{
-  background-image:url(../images/homepods_black_white.jpg);
+.hero__image{
   background-repeat:no-repeat;
-  background-size: 1300px;
+  margin-top: -300px;
+  margin-bottom: 20px;
+  margin-left: -60px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+.double_homepod{
+  position: absolute;
+  margin-left: 480px;
+  margin-top: -200px;
+  opacity: 0.95;
+
 }
 
 .first{
@@ -69,6 +81,10 @@ body{
   flex-direction: column;
   margin-top:300px;
   margin-left: 100px;
+}
+
+.shopButton{
+  margin-top: 50px;
 }
 
 h2{
@@ -189,9 +205,9 @@ tr{
 
 .bottomButton{
   text-align:center;
-  margin-top:50px;
+  margin-top: 500px;
 }
 
 section.shopButton{
-  margin-top:250px;
+  margin-top:400px;
 }
