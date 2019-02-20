@@ -33,6 +33,10 @@ li{
    list-style: none;
    padding-top: 13px;
  }
+a {
+  text-decoration: none;
+}
+
 nav li a{
   padding:70px 0px;
   margin:0px 24px;
@@ -163,10 +167,13 @@ nav .container_footer {
 }
 
 .color-selection input:hover ~ .checkmark {
-  background-color: red;
+  background-image: linear-gradient(#4B99FD, #BD3994);
+  opacity: 0.4;
+
+
 }
 .color-selection input:checked ~ .checkmark {
-  border: 1px solid blue;
+  border: 1px solid  #BD3994;
 }
 .color-selection input {
   position: absolute;
@@ -188,7 +195,7 @@ nav .container_footer {
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  background-color: #f0f0f0;
+  background-color: #f1f1f1;
 }
 
  
@@ -206,15 +213,30 @@ font-size: 2em;
 }
 
 .color__price{
-  margin-left:120px;
+  font-size: 1.4em;
+  margin-left:100px;
   margin-right:
 }
 
 .label__radio{
-  margin-left: 100px;
+  margin-left: 140px;
   padding-right: 20px;
 }
 
 #sliderHomepod{
   margin-top: 100px;
+}
+
+.price{
+  margin-left: 56px;
+  font-size: 1.4em;
+}
+
+.buy_button{
+  margin-left: 133px;
+}
+
+.homepod__albums{
+  margin-left: 50px;
+  margin-top: 40px;
 }
