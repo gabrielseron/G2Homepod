@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: "Roboto","Arial", sans-serif;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-size: 16px;
   color: #444;
 }
@@ -189,4 +189,32 @@ nav .container_footer {
   height: 35px;
   border-radius: 50%;
   background-color: #f0f0f0;
+}
+
+ 
+
+h6{
+  font-weight: bold;
+  font-size: 3em;
+  margin: 40px;
+  text-align: center;
+}
+
+.color__selection__txt{
+margin-right: 50px;
+font-size: 2em;
+}
+
+.color__price{
+  margin-left:120px;
+  margin-right:
+}
+
+.label__radio{
+  margin-left: 100px;
+  padding-right: 20px;
+}
+
+#sliderHomepod{
+  margin-top: 100px;
 }
