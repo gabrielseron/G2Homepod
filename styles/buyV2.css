@@ -31,11 +31,11 @@ nav{
 }
 
 nav li a{
-  padding:70px 0px;
   margin:0px 24px;
   color:white;
   text-decoration:none;
-  font-size:15px;
+  font-size:14px;
+  font-weight: lighter;
 }
 
 ul{
@@ -49,9 +49,7 @@ nav li a.current, nav li a:hover{
 }
 
 .logo{
-  padding-top:3px;
-  padding-left:0px;
-  height:20px;
+  height:25px;
 }
 
 /* MAIN */
@@ -59,7 +57,7 @@ nav li a.current, nav li a:hover{
 h2{
   font-size:3em;
   font-weight: bold;
-  margin:15px;
+  text-align: center;
 }
 
 .achat{
@@ -71,21 +69,37 @@ h2{
   width:300px;
   margin:0 auto;
   display:flex;
+  justify-content: space-around;
+
 
 }
 .colorsText{
-  width:300px;
-  display:flex;
-  margin-left: 5px;
+  display: flex;
+  justify-content: space-around;
 }
 
-h6{
-  margin-left:20px;
-  margin-right:50px;
-  margin-top:0px;
+h5{
+  font-size:1em;
+  font-weight: bold;
+  text-align: center;
+}
+h6.greyColor{
   font-size:1em;
   font-weight: normal;
   text-align: center;
+  margin-left: 20px;
+}
+h6.whiteColor{
+  font-size:1em;
+  font-weight: normal;
+  margin-right: 45px;
+}
+
+h4{
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 5px;
 }
 
 .white{
@@ -93,8 +107,8 @@ h6{
   border-radius:50%;
   height:50px;
   width:50px;
-  margin:40px;
-  justify-content: flex-start;
+  margin-right:40px;
+
 }
 
 .black{
@@ -102,40 +116,42 @@ h6{
   border-radius:50%;
   height:50px;
   width:50px;
-  margin:40px;
+  margin-left:40px;
 }
 
 .leftSide{
   width:300px;
   margin:0 auto;
-  padding-left:100px;
+
 }
 
 .homepodImage{
   margin-left:100px;
 }
 
-.priceContainer{
-  width:300px;
-  margin:0 auto;
-  margin-left:20px;
-  margin-top:20px;
-}
-
-h6.price{
-  font-size:3em;
-  font-weight: lighter;
-  margin-right: 100px;
-}
 .add{
   background:linear-gradient(60deg, #4B99FD, #BD3994);
   height: 50px;
-  width: 200px;
-  border-radius: 20%;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 10px;
   font-size:1em;
   font-weight: normal;
+  border: none;
   color:white;
 }
+
+.shopButton{
+  display: flex;
+  justify-content: space-around;
+}
+
+.homepodImageMedia{
+  display: none;
+  width: 500px;
+  margin: 0 auto;
+}
+
 
 /* BUTTONS */
 
@@ -152,10 +168,22 @@ h6.price{
 
   .homepodImage img{
     width: 100%;
+    margin-top: 70px;
   }
 
   header{
     width: 100%;
+  }
+  h6.greyColor{
+    font-size:1em;
+    font-weight: normal;
+    text-align: center;
+    margin-left: 60px;
+  }
+  h6.whiteColor{
+    font-size:1em;
+    font-weight: normal;
+    margin-right: 80px;
   }
 }
 
@@ -169,7 +197,25 @@ h6.price{
       display: none;
     }
     .homepodImage img{
-      width: 100%;
+      display: none;
     }
 
+    .homepodImageMedia{
+      display: block;
+    }
+    h6.greyColor{
+      font-size:1em;
+      font-weight: normal;
+      text-align: center;
+      margin-left: 110px;
+    }
+    h6.whiteColor{
+      font-size:1em;
+      font-weight: normal;
+      margin-right: 130px;
+    }
+
+    .chooseColor{
+      padding-top: 50px;
+    }
 }
