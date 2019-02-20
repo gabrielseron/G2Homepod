@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../styles/tech.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
     <title> Titre </title>
     <meta name="description" content="desc" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -13,19 +14,19 @@
         <ul class="container container_flex">
           <li><a href="#" title="Shop"><img src="../images/logo_apple.svg"
           alt="le logo d'Apple" class="logo"/></a></li>
-          <li><a href="#" title="HomePod">HomePod</a></li>
-          <li><a href="#" title="Carctéristiques techniques">Caractéristiques techniques</a></li>
-          <li><a href="#" title="Shop">Acheter</a></li>
+          <li><a href="../pages/index.html" title="HomePod">HomePod</a></li>
+          <li><a href="../pages/tech.html" title="Carctéristiques techniques">Caractéristiques techniques</a></li>
+          <li><a href="../pages/wip.html" title="Shop">Acheter</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="first">
         <div class="title">
-          <h2>Caractériques techniques</h2>
+          <h2>Caractéristiques techniques</h2>
         </div>
         <div class="shopButton">
-        <button type="button" name="Ajouter au panier" class="add">Ajouter au panier</button>
+        <button type="button" name="Acheter" class="add">Acheter</button>
         </div>
         <section class="colors">
           <div class="circles">
@@ -39,46 +40,77 @@
         </section>
       </section>
       <section class="second container">
-        <table>
-          <tr>
-            <td>
-              <h2>172mm</h2>
-              <p>de hauteur</p>
-            </td>
-            <td>
-              <img src="../images/smartphone.svg" alt="">
-            </td>
-            <td>
-              <img src="../images/siri.png" alt="">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <h2>2,5kg</h2>
-            </td>
-            <td>
-              <img src="../images/music.svg" alt="">
-            </td>
-            <td>
-              <img src="../images/airplay.svg" alt="">
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <h2>142mm</h2>
-            </td>
-            <td>
-              <img src="../images/bluetooth.svg" alt="">
-            </td>
-            <td>
-              <img src="../images/wifi.svg" alt="">
-            </td>
-          </tr>
+        <table class="container">
+          <tbody>
+            <tr class="firstRow">
+              <td>
+                <h2>172mm</h2>
+                <p class="sub">de hauteur</p>
+              </td>
+              <td>
+                <h2>2,5kg</h2>
+              </td>
+              <td>
+                <h2 class="top">142mm</h2>
+                <p class="sub">de diamètre</p>
+              </td>
+            </tr>
+            <tr class="secondRow">
+              <td>
+                <img src="../images/smartphone.svg" alt="">
+                  <p class="sub">Compatible iPhone</p>
+              </td>
+              <td>
+                <img src="../images/siri.svg" alt="" class="siri">
+                <p class="sub siri">Siri</p>
+              </td>
+              <td>
+                <img src="../images/music.svg" alt="">
+                <p class="sub">Apple Music</p>
+              </td>
+            </tr>
+            <tr class="thirdRow">
+              <td>
+                <img src="../images/airplay.svg" alt="" class="airplay">
+                <p class="sub airplay">AirPlay</p>
+              </td>
+              <td>
+                <img src="../images/bluetooth.svg" alt="">
+                <p class="sub">Bluetooth 5.0</p>
+              </td>
+              <td>
+                <img src="../images/wifi.svg" alt="">
+                <p class="sub">Wi‑Fi 802.11ac</p>
+              </td>
+            </tr>
+          </tbody>
         </table>
       </section>
     </main>
-    <footer>
-    </footer>
+    <footer class="footer-distributed">
+
+			<div class="footer-right">
+
+        <a href="https://www.facebook.com/apple/" ><img src="../images/facebook.png" alt="facebook logo"></a>
+        <a href="https://www.instagram.com/apple/?hl=fr"><img src="../images/instagram.png" alt="instagram logo"></a>
+        <a href="https://twitter.com/apple"><img src="../images/twitter.png" alt="twitter logo"></a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a href="#">Accueil</a>
+					·
+					<a href="#">Caractéristiques techniques</a>
+					·
+					<a href="#">Livraison</a>
+				</p>
+
+				<p>Apple &copy; 2019</p>
+			</div>
+
+		</footer>
     <script src="scripts/main.js"></script>
   </body>
 </html>
