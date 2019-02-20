@@ -57,23 +57,38 @@ nav li a.current, nav li a:hover{
 }
 
 /*MAIN*/
+body{
+  background-image:url(../images/homepods_black_white.jpg);
+  background-repeat:no-repeat;
+  background-size: 1300px;
+}
+
+.first{
+  display:flex;
+  flex-direction: column;
+  margin-top:300px;
+  margin-left: 100px;
+}
 
 h2{
-  font-size:2,5em;
+  font-size: 40px;
+}
+
+
+.add{
+  background:linear-gradient(60deg, #4B99FD, #BD3994);
+  height: 50px;
+  width: 200px;
+  border-radius: 30px;
+  font-size:1em;
   font-weight: normal;
-  margin:15px;
+  color:white;
 }
 
-.achat{
-  padding-top:80px;
+.circles{
+  width:500px;
   display:flex;
-}
-
-.colors{
-  width:300px;
-  margin:0 auto;
-  display:flex;
-
+  justify-content: flex-start;
 }
 .colorsText{
   width:300px;
@@ -105,36 +120,13 @@ h6{
   margin:40px;
 }
 
-.leftSide{
-  width:300px;
-  margin:0 auto;
-  padding-left:100px;
-}
-.buttons{
-  margin-top:70px;
+.colors{
+  margin-top:200px;
+  margin-right:500px;
 }
 
-.homepodImage{
-  margin-left:100px;
-}
-
-.priceContainer{
-  width:300px;
-  margin:0 auto;
-  margin-left:20px;
-  margin-top:20px;
-}
-
-h6.price{
-  font-size:3em;
-  font-weight: lighter;
-}
-.add{
-  background:linear-gradient(60deg, #4B99FD, #BD3994);
-  height: 50px;
-  width: 200px;
-  border-radius: 30px;
-  font-size:1em;
-  font-weight: normal;
-  color:white;
+.second{
+  background-color: pink;
+  margin-top: 100px;
+  height:500px;
 }
