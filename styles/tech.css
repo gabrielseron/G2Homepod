@@ -8,6 +8,7 @@ body{
 .container{
   width:960px;
   margin:0 auto;
+  margin-bottom: 100px;
 }
 
 .container_flex{
