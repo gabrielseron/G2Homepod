@@ -58,19 +58,18 @@ nav li a.current, nav li a:hover{
 /*MAIN*/
 .hero__image{
   background-repeat:no-repeat;
-  margin-top: -300px;
-  margin-bottom: 20px;
-  margin-left: -60px;
   position: absolute;
+  margin-left: -100px;
+  margin-top: -300px;
   z-index: -1;
-  opacity: 0.4;
+  opacity: 0.1;
   width: 100%;
 }
 
 .double_homepod{
   position: absolute;
-  margin-left: 480px;
-  margin-top: -200px;
+  margin-left: 300px;
+  margin-top: 00px;
   opacity: 0.95;
 
 }
@@ -142,8 +141,8 @@ table{
 .colors{
   display:flex;
   justify-content:flex-start;
-  margin-left:50px;
-  margin-top:30px;
+  margin-left:150px;
+  margin-top:80px;
   margin-bottom:100px;
 }
 
@@ -151,7 +150,7 @@ table{
   padding-top:100px;
   height:500px;
   display:flex;
-  margin-top:50px;
+  margin-top:150px;
   margin-bottom:100px;
 }
 
@@ -212,4 +211,8 @@ tr{
 
 section.shopButton{
   margin-top:400px;
+}
+
+.add{
+  margin-top: 50px;
 }
