@@ -64,6 +64,7 @@ nav li a.current, nav li a:hover{
   z-index: -1;
   opacity: 0.1;
   width: 100%;
+
 }
 
 .double_homepod{
@@ -71,13 +72,16 @@ nav li a.current, nav li a:hover{
   margin-left: 300px;
   margin-top: 00px;
   opacity: 0.95;
+}
 
+.homepodimg {
+  height: 100%;
 }
 
 .first{
   display:flex;
   flex-direction: column;
-  margin-top:300px;
+  margin-top:150px;
   margin-left: 100px;
 }
 
@@ -138,17 +142,9 @@ table{
   margin:40px;
 }
 
-.colors{
-  display:flex;
-  justify-content:flex-start;
-  margin-left:150px;
-  margin-top:80px;
-  margin-bottom:100px;
-}
-
 .table{
-  padding-top:100px;
-  height:500px;
+  padding-top:400px;
+  height:300px;
   display:flex;
   margin-top:150px;
   margin-bottom:100px;
@@ -206,7 +202,8 @@ tr{
 
 .bottomButton{
   text-align:center;
-  margin-top: 500px;
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 
 section.shopButton{
