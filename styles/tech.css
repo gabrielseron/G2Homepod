@@ -60,49 +60,36 @@ nav li a.current, nav li a:hover{
   width:100%;
 }
 
-nav .container_footer {
-  align-items: center;
+/*MAIN*/
+.hero__image{
+  background-repeat:no-repeat;
+  position: absolute;
+  margin-left: -100px;
+  margin-top: -300px;
+  z-index: -1;
+  opacity: 0.1;
+  width: 100%;
+
 }
 
-.nav__link {
-  text-align: center;
+.double_homepod{
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 00px;
+  opacity: 0.95;
 }
 
-/* HEADER*/
-
-header{
-  background:linear-gradient(60deg, #4B99FD, #BD3994);
-  height:50px;
-}
-
-.logo{
-  height:20px;
-  width:100%;
+.homepodimg {
+  height: 100%;
 }
 
 /*MAIN*/
 
 .first{
   display:flex;
-  position: relative;
-  flex-flow: row wrap;
-  padding-top: 200px;
-  justify-content: space-around
-}
-.first::before {
-  content: "";
-  background: url(../images/siri.jpg);
-  opacity: 0.1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
-}
-.double_homepod{
-  opacity: 0.95;
-
+  flex-direction: column;
+  margin-top:150px;
+  margin-left: 100px;
 }
 
 .shopButton{
@@ -142,6 +129,9 @@ h6{
   font-weight: normal;
 }
 
+table{
+  border-color:white,
+}
 .white{
   background:#D0CFD4;
   border-radius:50%;
@@ -159,16 +149,9 @@ h6{
   margin:40px;
 }
 
-.colors{
-  display:flex;
-  justify-content:flex-start;
-  margin-left:150px;
-  margin-top:80px;
-  margin-bottom:100px;
-}
-
 .table{
-  height:500px;
+  padding-top:400px;
+  height:300px;
   display:flex;
   }
 
@@ -224,7 +207,8 @@ tr{
 
 .bottomButton{
   text-align:center;
-  margin-top: 500px;
+  margin-top: 200px;
+  margin-bottom: 100px;
 }
 
 section.shopButton{
