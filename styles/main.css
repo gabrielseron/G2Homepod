@@ -239,7 +239,9 @@ font-size: 2em;
   max-width: 100%;
   width: 100%;
 }
-
+.wip{
+  height: 500px;
+}
 
 /* MEDIA QUERIES PAGE BUY*/
 @media screen and (max-width: 768px){
