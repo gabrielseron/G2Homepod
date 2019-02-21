@@ -118,6 +118,9 @@ h6{
   font-weight: normal;
 }
 
+table{
+  border-color:white,
+}
 .white{
   background:#D0CFD4;
   border-radius:50%;
