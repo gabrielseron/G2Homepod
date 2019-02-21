@@ -51,8 +51,6 @@ nav li a.current, nav li a:hover{
 }
 
 .logo{
-  padding-top:5px;
-  padding-left:0px;
   height:20px;
   width:100%;
 }
@@ -66,6 +64,7 @@ nav li a.current, nav li a:hover{
   position: absolute;
   z-index: -1;
   opacity: 0.4;
+  width: 100%;
 }
 
 .double_homepod{
