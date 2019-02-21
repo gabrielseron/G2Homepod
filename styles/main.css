@@ -242,11 +242,14 @@ font-size: 2em;
 }
 
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES PAGE BUY*/
 @media screen and (max-width: 768px){
   .container{
      width: 480px;
      margin: 0 auto;
      }
-
+     .carousel-item img{
+       max-width: 100%;
+       width: 100%;
+     }
 }
