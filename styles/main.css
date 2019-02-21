@@ -60,7 +60,6 @@ nav li a.current, nav li a:hover{
   width:100%;
 }
 
-}
 nav .container_footer {
   align-items: center;
 }
@@ -123,7 +122,7 @@ nav .container_footer {
   align-content: center;
   text-align: center;
 }
-.screen2__image{
+.screen2__image, .screen2__image2{
   height: auto;
   margin: auto;
   display: block;
